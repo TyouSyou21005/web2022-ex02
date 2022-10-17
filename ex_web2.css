@@ -1,0 +1,45 @@
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 18px;
+    text-align: end;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  
+  li {
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: cadetblue;
+  }
+  
+  
+  html {
+    background-color: #e7b0ee;
+  }
+  
+  body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 26px 0;
+    color: rgb(36, 175, 166);
+  }
+  

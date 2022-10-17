@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>日本大学文理学部情報科学科 Webプログラミングの演習課題02</title>
+    </head>
+    <link href="ex_web2.css" rel="stylesheet">
+
+    <body>
+        <h1>
+            日本大学文理学部情報科学科 Webプログラミング演習課題02
+        </h1>
+        <h2>
+            5421005 張松
+        </h2>
+        <p>
+            HTMLの<a href="https://html.spec.whatwg.org/multipage/#toc-semantics">「4 The elements of HTML」</a>
+            から選んだ以下の要素を説明しようと思います。
+        </p>
+        <ul>
+            <li>4.2.2 The title element</li>
+            <li>4.2.4 The link element</li>
+            <li>4.3.1 The body element</li>
+        </ul>
+
+        <p>
+            title要素とはそのページのタイトルを表す要素、ページのタイトルを指定する要素で、ページの「顔」とでも言うべきものです。
+            このtitle要素に記述した文字列は、ブラウザのタイトルバーやタブに表示されます。
+            コードは&lt;title&gt;”内容”&lt;/title&gt;を書きます。
+            このページを例として、titleでは「日本大学文理学部情報科学科 Webプログラミングの演習課題02」ということです。
+        </p>
+        <p>
+            LINK 要素は開始タグのみで終了タグが存在しません。
+            このような要素の事を空要素(Empty Element)と呼びます。
+            空要素は「開始タグだけで終了タグが存在しない」とされ、
+            &lt;link ...&gt;と書くことになっていますが、その上位バージョンである<strong>XHTML 1.0</strong>では、
+            空要素でも終了タグが必須となっており、&lt;link ... /&gt;と記述しなければなりません。
+            コードでは&lt;link rel="" hef=""&gt;です。
+        </p>
+        <p>
+            body要素とはそのページの内容（コンテンツ）を表す要素です。
+            画面に表示したいコンテンツは全てこの&lt;body&gt;要素内に配置します。
+            &lt;body&gt;要素は1つドキュメントに1つしか配置できません。
+            コードでは&lt;body&gt;"内容"&lt;/body&gt;
+        </p>
+    </body>
+</html>
